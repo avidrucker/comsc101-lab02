@@ -20,5 +20,5 @@ print("What year were you born?")
 
 birth_year = input()
 
-print("You are approximately " 
+print("You are about " 
     + str(2025 - int(birth_year)) + " years old.")
