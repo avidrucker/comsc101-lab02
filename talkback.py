@@ -5,7 +5,9 @@
 # back where NAME is the user's actual name
 # Secondly, this program will ask for the user's
 # birth year, calculate their approx. age, and then
-# say that age back to the user
+# say that age back to the user.
+# Lastly, this program will divide the user's age
+# by 2, and print out that in a message as well
 
 # OPTIONAL: describe each step the program will take
 # step 1, ask the user what their name is
@@ -21,7 +23,24 @@ print("Hi, " + user_name + ".")
 
 print("In what year were you born?")
 
-birth_year = input()
+birth_year = int(input())
+
+your_age = 2025 - birth_year
 
 print("You are about " 
-    + str(2025 - int(birth_year)) + " years old.")
+    + str(your_age) 
+    + " years old.")
+
+# math we could do here is
+# addition, subtraction, multiplication,
+# division, modulo (divide & get remainer),
+# exponentiation (powers)
+# examples are: 
+# - calculating age or birth year
+# - converting between metric and imperial
+
+half_age = your_age / 2
+
+print("Half of your age is " 
+    + str(half_age)
+    + ".")
