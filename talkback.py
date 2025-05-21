@@ -19,7 +19,7 @@ print("Hi, " + user_name + ".")
 # one line version of the code above
 # print("Hi, " + input("What is your name?") + ".")
 
-print("What year were you born?")
+print("In what year were you born?")
 
 birth_year = input()
 
