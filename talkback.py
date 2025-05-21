@@ -3,6 +3,9 @@
 # their name "What's your name?" and then, 
 # I want the program to say "Hi, NAME" 
 # back where NAME is the user's actual name
+# Secondly, this program will ask for the user's
+# birth year, calculate their approx. age, and then
+# say that age back to the user
 
 # OPTIONAL: describe each step the program will take
 # step 1, ask the user what their name is
